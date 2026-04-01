@@ -1,0 +1,64 @@
+:root {
+    --txt-color-01: #555;
+    /* Колір основного тексту*/
+    --txt-color-02: #ccc;
+    /* Колір основного тексту інверсія*/
+    --bg-color-01: #ddd;
+    /* Колір фону 1*/
+    --bg-color-02: #555;
+    /* Колір фону 2*/
+    --lnk-color-01: #900;
+    /*Колір покликань*/
+    --lnk-color-02: #500;
+    /*Колір покликань при hover*/
+    --btn-color-01: #700;
+    /*Колір кнопок 1*/
+    --btn-color-02: #666;
+    /*Колір кнопок 2*/
+    --mob-padding: 20px;
+    /*Відступи до контенту*/
+    --ipad-padding: 40px;
+    /*Відступи до контенту на планшеті*/
+    --max-width: 1600px;
+    /*Обмеження ширини контенту на десктопі*/
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.4;
+    color: var(--txt-color-01)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 1.5rem;
+}
+
+h3 {
+    font-size: 1.35rem;
+}
+
+.inside {
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,13 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content {
+    max-width: 500px;
+}
+
+.header__image img {
+    width: 300px;
+}

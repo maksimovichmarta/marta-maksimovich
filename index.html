@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cooked</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="пошук">
+            <span class="search-icon">⌕</span>
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <h1>
+            Відклав все на потім,<br>
+            а тепер нічого не встигаєш?
+        </h1>
+
+        <a href="#about" class="hero-btn">
+            Дізнатись більше
+        </a>
+
+        <div class="hero-text">
+            Вітаю,<br>
+            ти - cooked
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <h2>Що це таке?</h2>
+
+        <div class="cards">
+            <img src="images/img1.jpg">
+            <img src="images/img2.jpg">
+            <img src="images/img3.jpg">
+        </div>
+
+        <p>
+            “Cooked” у мемах означає, що прапала всьо. Це про момент, коли ти опинився в ситуації, з якої вже не
+            вибратися, коли тебе розкрили, спіймали, переграли або ти сам себе загнав у кут. Коли кажуть “he’s cooked”,
+            мають на увазі, що шансів немає, результат вже зрозумілий і змінити нічого не вийде. Це коротке слово для
+            позначення повного і очевидного провалу.
+        </p>
+
+    </section>
+
+    <!-- ORIGIN -->
+
+    <section class="origin">
+
+        <div class="origin-content">
+
+            <h2>
+                Походження
+            </h2>
+
+            <p>
+                Слово “cooked” з’явилося у сленгу ще в англомовних районах інтернету, де ним жартома позначали людину,
+                якій уже нічого не світить у певній ситуації. Спочатку це було схоже на фразу “you’re done”, яку геймери
+                використовували, коли суперник програвав настільки очевидно, що просто не мав шансів. Потім словом
+                почали описувати моменти, коли хтось спалився на брехні, потрапив у безглузду ситуацію або став героєм
+                відео, де все пішло не так. Завдяки TikTok і коротким мемам термін закріпився саме в такому значенні —
+                “тобі кінець”, “ти попав”, “звідси вже не вибратись”. Зараз “cooked” вживають щоразу, коли хтось
+                потрапляє в очевидний, неминучий провал, і це слово звучить настільки просто й влучно, що стало
+                універсальним коментарем до будь-якого фейлу.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- MEMES -->
+
+    <section class="memes">
+
+        <div class="gallery-wrapper">
+
+            <div class="gallery">
+
+                <img src="images/meme1.jpg">
+                <img src="images/meme2.jpg">
+                <img src="images/meme3.jpg">
+                <img src="images/meme4.jpg">
+                <img src="images/meme5.jpg">
+                <img src="images/meme6.jpg">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CTA -->
+
+    <section class="cta">
+
+        <h2>
+            Впізнав себе<br>
+            на фото?
+        </h2>
+
+        <div class="help">
+            Ми<br>
+            допоможемо!
+        </div>
+
+        <button class="join-btn" id="joinBtn">
+            Наскільки я cooked?
+        </button>
+
+        <p id="result"></p>
+
+    </section>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2 id="popup-result"></h2>
+            <button id="closePopup">Закрити</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
